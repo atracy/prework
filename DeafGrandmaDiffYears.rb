@@ -9,7 +9,10 @@ while answer.upcase != 'BYE'
 	if answer != answer.upcase
 	  puts 'HUH?!  SPEAK UP, SONNY!'
 	else
-		year = rand(58)
+		year = rand(50)
+		if year < 31 then
+			year = 30
+		end
 		puts 'Not Since 19' + year.to_s
 	end
 end
