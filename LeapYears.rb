@@ -1,3 +1,4 @@
+#figure out leap years
 puts 'let\'s figure out some leap years!!!'
 puts 'Please put in a starting year'
 startingyear = gets.chomp.to_i
