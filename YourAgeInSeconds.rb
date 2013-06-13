@@ -1,3 +1,4 @@
+#Get your age in seconds
 years = 39
 daysinayear = 365
 hoursinaday = 24
