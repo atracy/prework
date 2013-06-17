@@ -12,9 +12,9 @@ def recursive_sort unsorted_array
 
 			if unsorted_array[current_position] < unsorted_array[current_position + 1] 
 				numinorder = numinorder + 1
-				puts unsorted_array[current_position] + unsorted_array[current_position + 1] + " numinorder = " + numinorder.to_s
+				#puts unsorted_array[current_position] + unsorted_array[current_position + 1] + " numinorder = " + numinorder.to_s
 			else
-				puts "switched " + unsorted_array[current_position] + " and " + unsorted_array[current_position + 1]
+				#puts "switched " + unsorted_array[current_position] + " and " + unsorted_array[current_position + 1]
 				temp1 = unsorted_array[current_position]
 				temp2 = unsorted_array[current_position + 1]
 				unsorted_array[current_position] = temp2
@@ -24,7 +24,7 @@ def recursive_sort unsorted_array
 			end
 			current_position = current_position + 1
 		end
-		puts 'try numinorder again' + numinorder.to_s + ' ' + unsorted_array.count.to_s
+		#puts 'try numinorder again' + numinorder.to_s + ' ' + unsorted_array.count.to_s
 	end
 	puts unsorted_array
 end
